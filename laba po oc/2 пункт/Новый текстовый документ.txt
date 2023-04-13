@@ -1,0 +1,13 @@
+touch 1.lib
+ touch 2.res
+ touch 3
+ mkdir usr
+ mkdir usr/bin
+ mv 1.lib usr/bin
+mv 3 usr/bin
+ mkdir share
+ mkdir share/фамилия
+ mv 2.res share/фамилия
+ chmod +r usr/bin
+ cd share
+ cd фамилия
